@@ -1285,6 +1285,11 @@
 	margin: 0px 0px 18px 3px;
 }
 
+.flat-testimonials .testimonials .avatar .author-thumb img{
+	width: 120px;
+	height: 120px;
+}
+
 .flat-testimonials .testimonials .name {
 	font-size: 20px;
 	line-height: 30px;

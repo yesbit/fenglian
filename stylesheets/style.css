@@ -1785,6 +1785,10 @@ article .more-link.style2 a:hover {
 	margin-right: 21px;
 	margin-bottom: 15px;
 }
+.widget.widget-testimonials .testimonials .author-thumb img {
+	height: 50px;
+}
+
 .widget.widget-testimonials .testimonials .name  span{
 	line-height: 26px;
 	font-family: "Poppins", sans-serif;
@@ -1920,6 +1924,10 @@ footer {
 }
 
 /* Widget social */
+.footer-widgets .widget-social {
+	padding: 0px 0px 0px 50px;
+}
+
 .footer-widgets .widget-social .widget-title {
 	font-size: 14px;
 	line-height: 18px;
@@ -1946,7 +1954,7 @@ footer {
 
 /* Widget subscribe */
 .footer-widgets .widget-subscribe {
-	padding: 19px 0px 0px 50px;
+	padding: 15px 0px 0px 50px;
 }
 
 .footer-widgets .widget-subscribe .widget-title {
