@@ -294,6 +294,16 @@
 	.widget ul > li > a {
 		font-size: 18px;
 	}
+
+	.footer-widgets .widget-social {
+		padding: 0;
+		text-align: center;
+	}
+
+	.footer-widgets .widget-social .widget-title {
+		padding: 0px 0px 0px 0px;
+	}
+
 }
 
 /* Tablet Landscape */
