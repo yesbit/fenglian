@@ -547,7 +547,7 @@ h6 { font-size: 17px; line-height: 24px; font-weight: 600; color: #151515;}
 	display: inline-block;
 	width: 33.3333%;
 	float: left;
-	padding-left: 22px;
+	/* padding-left: 22px; */
 }
 
 .flat-information li .icon {
@@ -584,7 +584,7 @@ h6 { font-size: 17px; line-height: 24px; font-weight: 600; color: #151515;}
 }
 
 .flat-information li .text {
-	float: left;
+	/* float: left; */
 	overflow: hidden;
 	font-size: 16px;
 	line-height: 34px;
