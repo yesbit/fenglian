@@ -688,10 +688,8 @@
     };
 
     var handleScroll = function() {
-        $('#mainnav').localScroll(); 
-        $('#nav').localScroll();
-        console.log("hey we are at Handle scroll")
-    }
+        $('.nav-scroll').localScroll(); 
+    };
 
 
     (function(b,i,t,C,O,I,N) {
