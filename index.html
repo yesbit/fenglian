@@ -45,7 +45,7 @@
     <!-- Boxed -->
     <div class="boxed">
         
-        <div class="top">
+        <div id="contact" class="top nav">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -130,26 +130,22 @@
                         <div class="col-md-12">
                             <div class="nav-wrap">
                                 <nav id="mainnav" class="mainnav">
-                                    <ul class="menu">
+                                    <ul id="nav" class="menu">
                                         <li class="active">
                                             <a href="index.html">首页</a>
                                         </li>
                                         <li >
-                                            <a href="about.html">介绍</a>
+                                            <a href="#intro">介绍</a>
                                             <ul class="submenu">
-                                                <li><a href="about.html">关于我们</a></li>
-                                                <li><a href="project.html">项目</a></li>
-                                                <li><a href="team.html">团队</a></li>
+                                                <li><a href="#intro">关于我们</a></li>
+                                                <li><a href="#project">项目</a></li>
+                                                <li><a href="#team">团队</a></li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="blog-list.html">最新动态</a>
-                                            <ul class="submenu">
-                                                <li><a href="blog-list.html">新闻</a></li>
-                                                <li><a href="blog-details.html"> 部落格</a></li>
-                                            </ul>
+                                            <a href="#news">最新动态</a>
                                         </li>
-                                        <li><a href="contact.html">联系我们</a></li>
+                                        <li><a href="#contact">联系我们</a></li>
                                     </ul>
                                 </nav><!-- /.mainnav -->
                                 <ul class="menu-extra">
@@ -398,7 +394,7 @@
         </div><!-- END REVOLUTION SLIDER --> 
 
 
-        <section class="flat-row flat-fees">
+        <section id="intro" class="flat-row flat-fees nav">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5">
@@ -478,7 +474,7 @@
         </section><!-- /.flat-row -->
 
 
-        <section class="flat-row row-choosing style2">
+        <section id="project" class="flat-row row-choosing style2">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -563,7 +559,7 @@
             </div>
         </section> -->
         
-        <section class="flat-row row-testimonials parallax parallax4">
+        <section id="team" class="flat-row row-testimonials parallax parallax4">
             <div class="overlay bg_color1"></div>
             <div class="container">
                 <div class="row">
@@ -604,7 +600,7 @@
         </section><!-- /.flat-row -->
 
 
-        <section class="flat-row our-blog">
+        <section id="news" class="flat-row our-blog">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -746,10 +742,8 @@
                                 <div class="one-half">
                                     <h5 class="widget-title">相关资源</h5>
                                     <ul>
-                                        <li><a href="blog-list.html">部落格</a></li>
-                                        <li><a href="#">帮助中心</a></li>
+                                        <li><a href="#news">部落格</a></li>
                                         <li><a href="#">费用 & 功能</a></li>
-                                        <li><a href="#">线上咨询</a></li>
                                     </ul>
                                 </div>
                                 <div class="one-half padding_left_73">
@@ -757,10 +751,10 @@
                                         介绍
                                     </h5>
                                     <ul>
-                                        <li><a href="#">Linkcoin</a></li>
-                                        <li><a href="#">Yesbit</a></li>
-                                        <li><a href="#">我们的团队</a></li>
-                                        <li><a href="about.html">关于我们</a></li>
+                                        <li><a href="https://www.linkcoin.pro/">Linkcoin</a></li>
+                                        <li><a href="http://yesbit.io">Yesbit</a></li>
+                                        <li><a href="#team">我们的团队</a></li>
+                                        <li><a href="#intro">关于我们</a></li>
                                     </ul>
                                 </div>
                             </div><!-- /.widget-services -->
@@ -831,6 +825,8 @@
     <script src="javascript/gmap3.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLjIsk1A1SP8UsfNf2r4VXPinzvnIsnN4&region=GB"></script>
     <script src="javascript/main.js"></script>
+    <script src="bower_components/jquery.localScroll/jquery.localScroll.min.js"></script>
+    <script src="bower_components/jquery.scrollTo/jquery.scrollTo.min.js"></script>
 
     <!-- Revolution Slider -->
     <script src="revolution/js/jquery.themepunch.tools.min.js"></script>

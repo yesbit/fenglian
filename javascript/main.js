@@ -687,6 +687,13 @@
         }
     };
 
+    var handleScroll = function() {
+        $('#mainnav').localScroll(); 
+        $('#nav').localScroll();
+        console.log("hey we are at Handle scroll")
+    }
+
+
     (function(b,i,t,C,O,I,N) {
         window.addEventListener('load',function() {
           if(b.getElementById(C))return;
@@ -719,5 +726,6 @@
         mouseScroll(); 
         resultCurrency();
         flatretinaLogo();
+        handleScroll();
    	});
 })(jQuery);
