@@ -10,10 +10,8 @@
   * flatTestimonial
   * flatCurrency
   * blogCarousel
-  * PieChart
   * flatAccordion
   * flatTabs
-  * googleMap
   * flatCounter
   * detectViewport
   * goTop
@@ -375,39 +373,6 @@
         });
     };
 
-    var PieChart = function() {
-        $('.chart').each(function() {
-            var data = [{
-              values: [3730, 11, 2982,14,16,19,3118,26,37,48],
-              labels: ['btcchina', 'btce', 'huobi', 'coinbase', 'bitstamp', 'keaken', 'okcoin','bitfinex','others','lakebtc'],
-              type: 'pie',
-              textinfo: 'none',
-              hoverinfo: 'label'
-            }];
-            var layout = {
-                autosize: true,
-                legend: {
-                  y: 1.4,
-                  x: 0.2,
-                  traceorder: "normal",
-                  orientation: "h"
-                },
-            };
-            if ( matchMedia( 'only screen and (max-width: 320px)' ).matches ) {
-                var layout = {
-                    autosize: true,
-                    legend: {
-                      y: 1.4,
-                      x: 0.2,
-                      traceorder: "normal",
-                      orientation: "h"
-                    },
-                    showlegend: false
-                };
-            }
-            Plotly.newPlot('myDiv', data,layout );
-        });
-    }
 
     var flatAccordion = function() {
         var args = {duration: 600};
@@ -446,161 +411,6 @@
         });
     };
 
-    var googleMap = function() {
-            
-        // Gmap Defaults
-        if ( $().gmap3 ){
-                var data = JSON.parse('[{"address":"180 John Street,  Toronto","content":""}]');
-                var data2 = JSON.parse('[{"address":"180 John Street, Toronto","content":""}]');
-            $('.maps').gmap3({
-                map:{
-                    options:{
-                        center:[40.6777899, -73.9981382],
-                        mapTypeId: 'Fenglian',
-                        mapTypeControlOptions: {
-                                mapTypeIds: ['Fenglian', google.maps.MapTypeId.SATELLITE, google.maps.MapTypeId.HYBRID]},
-                        zoom: 16,
-                    },
-                    navigationControl: true,
-                   scrollwheel: false,
-                   streetViewControl: true
-                }
-            });
-
-        }
-
-        // Json Loop
-        $.each(data, function(key, val) {
-                $('.maps').gmap3({
-                    marker:{
-                        values:[{
-                            address:val.address,
-                            options:{icon: "images/maps/map_icon.png"},
-                            events: {
-                                mouseover: function() {
-                                    $(this).gmap3({
-                                        overlay:{
-                                            address:val.address,
-                                            options:{
-                                                content:  "",
-                                                offset:{
-                                                    y:34,
-                                                    x:-186
-                                                }
-                                            }
-                                        }
-                                    });
-                                },
-                                mouseout: function(){
-                                $('.infobox').each(function() {
-                                    $(this).remove();
-                                });
-                                }
-                            }
-                        }]
-                    },
-                    styledmaptype:{
-                        id: "Fenglian",
-                        options:{
-                            name: "Fenglian"
-                        },
-                        styles:[
-                                {
-                                    "featureType": "landscape",
-                                    "elementType": "labels",
-                                    "stylers": [
-                                        {
-                                            "visibility": "off"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "featureType": "transit",
-                                    "elementType": "labels",
-                                    "stylers": [
-                                        {
-                                            "visibility": "off"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "featureType": "poi",
-                                    "elementType": "labels",
-                                    "stylers": [
-                                        {
-                                            "visibility": "off"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "featureType": "water",
-                                    "elementType": "labels",
-                                    "stylers": [
-                                        {
-                                            "visibility": "off"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "featureType": "road",
-                                    "elementType": "labels.icon",
-                                    "stylers": [
-                                        {
-                                            "visibility": "off"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "stylers": [
-                                        {
-                                            "hue": "#00aaff"
-                                        },
-                                        {
-                                            "saturation": -100
-                                        },
-                                        {
-                                            "gamma": 2.15
-                                        },
-                                        {
-                                            "lightness": 12
-                                        }
-                                    ]
-                                },
-                                {
-                                    "featureType": "road",
-                                    "elementType": "labels.text.fill",
-                                    "stylers": [
-                                        {
-                                            "visibility": "on"
-                                        },
-                                        {
-                                            "lightness": 24
-                                        }
-                                    ]
-                                },
-                                {
-                                    "featureType": "road",
-                                    "elementType": "geometry",
-                                    "stylers": [
-                                        {
-                                            "lightness": 57
-                                        }
-                                    ]
-                                }
-                            ]
-                    }
-                });
-        });
-
-            
-        // Function Clear Markers
-        function gmap_clear_markers() {
-            $('.infobox').each(function() {
-                var args = {duration: 600};
-                $(this).slideToggle(args).remove();
-            });
-        }
-    };
 
     var flatCounter = function() {       
         $('.flat-counter').on('on-appear', function() {             
@@ -709,18 +519,14 @@
 	$(function() {
         responsiveMenu();
         headerFixed();
-        topSearch();
         flatClient();
         ajaxContactForm();
         alertBox();
         widgetTestimonial();
         flatTestimonial();
         flatAccordion();
-        flatCurrency();
         blogCarousel();
-        PieChart();
         flatTabs();
-        googleMap();
         flatCounter();
         detectViewport();
         goTop();
