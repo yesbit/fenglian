@@ -27,7 +27,7 @@
     <link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
 
     <!-- Favicon and touch icons  -->
-    <link href="icon/favicon.png" rel="shortcut icon">
+    <link href="icon/fav.png" rel="shortcut icon">
 
     <!--[if lt IE 9]>
         <script src="javascript/html5shiv.js"></script>
@@ -44,135 +44,57 @@
 
     <!-- Boxed -->
     <div class="boxed">
-        
-        <div id="contact" class="top nav">
+        <header id="header" class="header header-classic">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="wrap-language-info clearfix">
-                            <div class="flat-language">
-                                <ul class="unstyled">
-                                    <li class="current"><a href="#">中文</a>
-                                        <ul class="unstyled">
-                                            <li class="cn"><a href="#">中文</a></li>
-                                            <li class="en"><a href="#">English</a></li>
+                    <div class="col-md-2">
+                        <!-- <img src="images/logo.png"> -->
+                        <img class="logo" src="images/logo.png">
+                    </div>
+                    <div class="col-md-10">
+                        <div class="nav-wrap">
+                            <nav class="mainnav">
+                                <ul class="menu nav-scroll">
+                                    <li class="active">
+                                        <a href="index.html">首页</a>
+                                    </li>
+                                    <li >
+                                        <a href="#intro">介绍</a>
+                                        <ul class="submenu">
+                                            <li><a href="#intro">关于我们</a></li>
+                                            <li><a href="#project">项目</a></li>
+                                            <li><a href="#team">团队</a></li>
                                         </ul>
-                                     </li>
+                                    </li>
+                                    <li>
+                                        <a href="#news">最新动态</a>
+                                    </li>
                                 </ul>
-                            </div><!-- /.flat-language -->
-                        </div><!-- /.wrap-language-info -->
-                    </div><!-- /.clo-md-6 -->
-                    <div class="col-md-6">
-                        <div class="wrap-social-sign pull-right clearfix">
-                            <ul class="flat-social">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
-                            </ul><!-- /.flat-social -->
-                            <!-- <div class="flat-sign">
-                                <a href="sign-in.html">Sign in</a>
-                                <a href="sign-up.html" class="active">Sign Up</a>
-                            </div>/.flat-sign -->
-                        </div><!-- /.wrap-social-sign -->
-                    </div><!-- /.col-md-6 -->
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </div><!-- /.top -->
-
-        <div class="flat-header-wrap">
-            <div class="header header-top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 col-lg-3">
-                            <div id="logo" class="logo">
-                                <a href="index.html" rel="home">
-                                    <img src="images/logo.png" >
-                                </a>
-                            </div><!-- /.logo -->
-                        </div><!-- /.col-lg-3 -->
-                        <div class="col-md-12 col-lg-9">
-                            <ul class="flat-information">
-                                <li class="email">
-                                    <div class="icon">
-                                        <i class="fa fa-envelope-o"></i>
-                                    </div>
-                                    <div class="text">
-                                        <p><span>邮箱</span><br/><a href="mailto:admin@yesbit.ca
-                                            ">admin@yesbit.ca</a></p>
-                                    </div>
-                                </li>
-                                <li class="phone">
-                                    <div class="icon">
-                                        <i class="fa fa-phone"></i>
-                                    </div>
-                                    <div class="text">
-                                        <p><span>电话</span><br/><a href="tel:1(647)873-9955 ">1(647)873-9955 </a></p>
-                                    </div>
-                                </li>
-                                <li class="address">
-                                    <div class="icon">
-                                        <i class="fa fa-map-marker"></i>
-                                    </div>
-                                    <div class="text">
-                                        <p><span>地址</span><br/><a href="https://www.google.com/maps/place/180+John+St,+Toronto,+ON+M5T+1X5/@43.6506828,-79.3938638,17z/data=!3m1!4b1!4m5!3m4!1s0x882b34cff7c19ad1:0x66d08591b476982a!8m2!3d43.6506789!4d-79.3916751">180 John Street,Toronto</a></a></p>
-                                    </div>
-                                </li>
-                            </ul><!-- /.flat-information -->
-                        </div><!-- /.col-lg-9 -->
-                    </div><!-- /.row -->
-                </div><!-- /.container -->
-            </div><!-- /.header-top -->
-
-            <header id="header" class="header header-classic">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="nav-wrap">
-                                <nav id="mainnav" class="mainnav">
-                                    <ul class="menu nav-scroll">
-                                        <li class="active">
-                                            <a href="index.html">首页</a>
-                                        </li>
-                                        <li >
-                                            <a href="#intro">介绍</a>
-                                            <ul class="submenu">
-                                                <li><a href="#intro">关于我们</a></li>
-                                                <li><a href="#project">项目</a></li>
-                                                <li><a href="#team">团队</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#news">最新动态</a>
-                                        </li>
-                                        <li><a href="#contact">联系我们</a></li>
-                                    </ul>
-                                </nav><!-- /.mainnav -->
-                                <ul class="menu-extra">
-                                    <li class="search">
-                                        <a href="#"><i class="fa fa-search"></i></a>
+                            </nav><!-- /.mainnav -->
+                            <div class="logo2"><img class="logo-mobi img-responsive center-block" src="images/logo3.png"></div>
+                            <div class="btn-menu">
+                                <span></span>
+                            </div><!-- /.mobile menu button -->
+                            <ul class="menu-extra">
+                                    <li class="email">
+                                        <a href="mailto:admin@yesbit.ca"><i class="fa fa-envelope-o"></i></a>
+                                    </li>
+                                    <li class="phone">
+                                        <a href="tel:1(647)873-9955"><i class="fa fa-phone"></i></a>
+                                    </li>
+                                    <li class="address">
+                                        <a href="https://www.google.com/maps/place/180+John+St,+Toronto,+ON+M5T+1X5/@43.6506828,-79.3938638,17z/data=!3m1!4b1!4m5!3m4!1s0x882b34cff7c19ad1:0x66d08591b476982a!8m2!3d43.6506789!4d-79.3916751"><i class="fa fa-map-marker"></i></a>
                                     </li>
                                     <!-- <li class="quote">
                                         <a href="#" title="">Get Free Quote </a>
                                     </li> -->
                                 </ul><!-- /.menu-extra -->
-                                <div class="top-search">            
-                                    <form role="search" method="get" class="search-form" action="#">
-                                        <label>                                    
-                                            <input type="search" class="search-field" placeholder="Search …" value="" name="s">
-                                        </label>
-                                        <span class="fa fa-times close"></span>
-                                    </form>       
-                                </div><!-- /.top-serach -->
-                                <div class="btn-menu">
-                                    <span></span>
-                                </div><!-- /.mobile menu button -->
-                            </div><!-- /.nav-wrap -->
-                        </div>
-                    </div><!-- /.row -->
-                </div><!-- /.container -->
-            </header><!-- /header -->
-        </div><!-- /.flat-header-wrap -->
+                        </div><!-- /.nav-wrap -->
+                    </div>
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </header><!-- /header -->
+    </div>
         
        <div id="rev_slider_1078_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container slide-overlay" data-alias="classic4export" data-source="gallery" style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
                 
@@ -183,7 +105,7 @@
                     <ul class="nav-scroll"><!-- SLIDE  -->
                     
                         <!-- SLIDE 1 -->
-                        <li data-index="rs-3050" data-transition="fade" data-slotamount="7" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"    data-rotate="0"  data-saveperformance="off"  data-title="Ken Burns" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">                        
+                        <li data-index="rs-3050" data-transition="fade" data-slotamount="7" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"    data-rotate="0"  data-saveperformance="off"   data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">                        
                             <!-- <div class="overlay">
                             </div> -->
                             <!-- MAIN IMAGE -->
@@ -284,7 +206,7 @@
                         </div><!-- /.flat-column -->
                     </div><!-- /.col-lg-5 -->
                     <div class="col-lg-7">
-                        <div class="flat-column">
+                        <div class="flat-column intro">
                             <img src="images/about/a2.jpg" alt="image">
                         </div><!-- /.flat-column -->
                     </div><!-- /.col-lg-7 -->

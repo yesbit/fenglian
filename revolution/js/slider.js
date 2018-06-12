@@ -24,7 +24,7 @@ tpj(document).ready(function() {
                 }
                 ,
                 arrows: {
-                    enable: true,                    
+                    enable: false,                    
                     style: 'zeus',
                     tmp: '',
                     rtl: false,

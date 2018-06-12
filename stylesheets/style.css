@@ -52,7 +52,6 @@
 		font-size: 100%; 
 		font-weight: inherit; 
 		font-style: inherit; 
-		vertical-align: baseline; 
 		margin: 0; 
 		padding: 0; 
 		border: 0; 
@@ -202,11 +201,15 @@ ul, ol {
 	padding: 0;
 }
 
-img {
+img.logo {
 	max-width: 100%;
-	height: auto;		
+	height: 60px;		
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+}
 b, strong {
 	font-weight: 900;
 }
@@ -525,18 +528,21 @@ h6 { font-size: 17px; line-height: 24px; font-weight: 600; color: #151515;}
 
 .header.header-top {
 	padding: 52px 0px 40px 0px;
+	color:#1a3846;
 }
 
 .header .logo {
-	margin: 6px 0px 0px 2px;
+	padding-top: 1px;
 }
 
 .header.header-classic {
 	position: absolute;
-	top: 100%;
+	top: 0%;
 	left: 0;
 	width: 100%;
-	margin-top: 4px;
+	background-color: transparent;
+	transition-property: all;
+	transition: background-color 0.5s;
 }
 
 /* Flat information */
@@ -550,17 +556,17 @@ h6 { font-size: 17px; line-height: 24px; font-weight: 600; color: #151515;}
 	/* padding-left: 22px; */
 }
 
-.flat-information li .icon {
+.flat-information li .icon{
 	float: left;
 	margin-right: 20px;
 	width: 64px;
     height: 64px;
-    background: #1a3846;
-    color: #fd942a;
+    background: transparent;
+    color: #000;
     font-weight: 600;
     font-size: 20px;
     text-align: center;
-    line-height: 64px;
+    line-height: 68px;
     border-radius: 50%;
 	-webkit-transition: all 0.3s ease-in-out;
 	   -moz-transition: all 0.3s ease-in-out;
@@ -570,17 +576,8 @@ h6 { font-size: 17px; line-height: 24px; font-weight: 600; color: #151515;}
 }
 
 .flat-information li:hover .icon {
-	color: #ffffff;
-	background: rgba(253,148,42, 1);
-}
-
-.flat-information li.phone .icon {
-	margin-left: 34px;
-}
-
-.flat-information li.address .icon {
-	margin-left: 17px;
-	margin-right: 18px;
+	width: 74px;
+	transition: all 0.3s;
 }
 
 .flat-information li .text {
@@ -588,7 +585,7 @@ h6 { font-size: 17px; line-height: 24px; font-weight: 600; color: #151515;}
 	overflow: hidden;
 	font-size: 16px;
 	line-height: 34px;
-	margin-top: 10px;
+	/* margin-top: 10px; */
 }
 
 .flat-information li .text span {
@@ -597,67 +594,63 @@ h6 { font-size: 17px; line-height: 24px; font-weight: 600; color: #151515;}
 	color: #262626;
 }
 
-/* Style2 */
-.flat-information.style2 li .icon {
-	background: #fd942a;
-	color: #ffffff;
+.header.downscrolled .flat-information li .icon a{
+	color: #fff;
 }
 
-.flat-information.style2 li:hover .icon {
-	background: #1a3846;
-}
 
 /* Navigation
 -------------------------------------------------------------- */
 .nav-wrap {
 	position: relative;
-	background: rgba(26, 56, 70,0.65);
 }
 
 .nav-wrap.style2 {
 	background: rgba(0, 0, 0,0.71);
 }
 
-.nav-wrap #mainnav, .nav-wrap .menu-extra {
+.nav-wrap .mainnav, .nav-wrap .menu-extra {
 	display: inline-block;
 }
 
-/* Header Fix */
+/* Header scrolled */
 .header.downscrolled {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     width: 100%;
-    background: #1a3846;
+    background-color: #1a3846;
     margin: 0;
-    box-shadow: 0px 10px 27px 0px rgba(0, 0, 0, 0.15);
+	box-shadow: 0px 10px 27px 0px rgba(0, 0, 0, 0.15);
+	transition-property: all;
+	transition: background-color 0.5s;
 }
 
 .header.downscrolled .nav-wrap {
 	background: transparent;
 }
 
-/* Mainnav */
-#mainnav ul {
+/*.Mainnav */
+.mainnav ul {
    list-style: none;
    margin: 0;
    padding: 0;
-   padding-left: 43px;
+   /* padding-left: 43px; */
 }
 
-#mainnav ul li {
+.mainnav ul li {
    position: relative;
 }
 
-#mainnav > ul > li {
+.mainnav > ul > li {
    display: inline-block;   
 }
 
-#mainnav > ul > li > a {  
+ .mainnav > ul > li > a {  
 	font-size: 16px; 
     font-weight: 500;
-    color: #ffffff;
+    color: #000000;
     font-family: "Poppins", sans-serif;
     line-height: 72px;    
     margin: 0 20px 0 20px;   
@@ -665,18 +658,22 @@ h6 { font-size: 17px; line-height: 24px; font-weight: 600; color: #151515;}
     letter-spacing: 0.2px;
 }
 
-#mainnav > ul > li > a:hover, #mainnav > ul > li.active a {
+.mainnav > ul > li > a:hover, .mainnav > ul > li.active a {
 	color: #fd942a;
 }
 
+.header.downscrolled  .mainnav > ul > li > a {
+	color: #fff;
+}
+
 /* Submenu */
-#mainnav ul.submenu {
+.mainnav ul.submenu {
 	position: absolute;
    	left: 0;
    	top: 120%;
    	width: 230px;
    	padding: 0px;
-   	background-color: rgba(26, 56, 70,1);
+   	background-color: transparent;
    	z-index: 9999;
    	opacity: 0;  
     visibility: hidden;
@@ -687,25 +684,30 @@ h6 { font-size: 17px; line-height: 24px; font-weight: 600; color: #151515;}
 	        transition: all 0.3s ease-in-out;
 }
 
-#mainnav ul li:hover > ul.submenu {
+
+
+
+.mainnav ul li:hover > ul.submenu {
 	top: 100%;
-    opacity: 1;
-    visibility: visible;
+    opacity: 0.9;
+	visibility: visible;
+	background-color: #fff;
+	transition: background-color 0.5s;
 }
 
-#mainnav ul.submenu > li {
+.mainnav ul.submenu > li {
    border-top: 1px solid rgba(255,255,255,0.2);  
 }
 
-#mainnav ul.submenu li:first-child {
+.mainnav ul.submenu li:first-child {
    border-top: none;
 }
 
-#mainnav ul.submenu > li > a {
+.mainnav ul.submenu > li > a {
     display: block;    
     font-size: 16px; 
     font-weight: 500;
-    color: #ffffff;
+    color: #000;
     font-family: "Poppins", sans-serif;
     text-decoration: none;
     padding: 0 0 0 26px;
@@ -713,70 +715,93 @@ h6 { font-size: 17px; line-height: 24px; font-weight: 600; color: #151515;}
     position: relative;
 }
 
-#mainnav ul.submenu > li.active > a {
+.mainnav ul.submenu > li.active > a {
 	color: #fd942a;
 }
 
-#mainnav ul.submenu > li > a:hover, #mainnav ul.submenu > li.active > a:hover {
-	color: #ffffff;
-	background: #fd942a;
+.mainnav ul.submenu > li > a:hover, .mainnav ul.submenu > li.active > a:hover {
+	color: #000;
+	background: #D3D3D3;
 }
+
+.header.downscrolled .mainnav ul li:hover > ul.submenu {
+	background-color: #1a3846;
+	transition: background-color 0.5s;
+}
+
+
+.header.downscrolled .mainnav ul.submenu > li > a {
+    color: #fff;
+}
+
+.header.downscrolled .mainnav ul.submenu > li.active > a {
+	color: #fd942a;
+}
+
+.header.downscrolled .mainnav ul.submenu > li > a:hover, .mainnav ul.submenu > li.active > a:hover {
+	color: #fd942a;
+	background: #1a3846;
+}
+
 
 /* Mobile navigation
 -------------------------------------------------------------- */
-#mainnav-mobi {
+.mainnav-mobi {
    	display: block;
    	margin: 0 auto;
    	width: 100%;
-   	position: absolute;
-   	background-color: #1a3846;
-   	z-index: 10000;
+	position: absolute;
+	top: 66px;
+   	background-color: #fff;
+	   z-index: 10000;
+	   opacity: 0.9;
 }
 
-#mainnav-mobi ul {
+.mainnav-mobi ul {
    	display: block;
    	list-style: none;
    	margin: 0;
    	padding: 0;
 }
 
-#mainnav-mobi ul li {
+.mainnav-mobi ul li {
    	margin:0;
    	position: relative;
-   	text-align: left;
-   	border-top: 1px solid rgba(255,255,255,0.2);
+   	text-align: center;
+   	border-top: 1px solid #E0E0E0;
    	cursor: pointer
 }
 
-#mainnav-mobi ul > li > a {
+.mainnav-mobi ul > li > a {
    	text-decoration: none;
    	height: 50px;
    	line-height: 50px;
    	display: block;
    	padding: 0 30px;
-   	color: #ffffff;
+   	color: #000;
 }
 
-#mainnav-mobi ul.sub-menu {
+.mainnav-mobi ul.sub-menu {
    	top: 100%;
    	left: 0;
    	z-index: 2000;
    	position: relative;
-   	background-color: #1a3846;
+	background-color: #fff;
 }
 
-#mainnav-mobi ul > li > a:hover {
+.mainnav-mobi ul > li > a:hover {
 	color: #fd942a;
 }
 
-#mainnav-mobi > ul > li > ul > li {
-	padding-left: 15px;
+.mainnav-mobi > ul > li > ul > li {
+	/* padding-left: 15px; */
 }
 
 /* Menu extra */
 .menu-extra {
 	float: right;
 	position: relative;
+	padding-right: 20px;
 }
 
 .menu-extra li {
@@ -786,10 +811,14 @@ h6 { font-size: 17px; line-height: 24px; font-weight: 600; color: #151515;}
 }
 
 .menu-extra li a {
-	color: #ffffff;
+	color: #000;
 	position: relative; 
 	padding: 0px 20px;
 	display: block;
+}
+
+.header.downscrolled .menu-extra li a {
+	color: #fff;
 }
 
 .menu-extra li.quote {
@@ -894,16 +923,17 @@ h6 { font-size: 17px; line-height: 24px; font-weight: 600; color: #151515;}
 	right: 30px;
 }
 
+
 /* Mobile menu button */
 .btn-menu {
 	display: none;
 	position: relative;
 	background: transparent;
 	cursor: pointer;
-	margin: 22px 0 22px;
+	margin: 27px 0 22px;
 	width: 26px;
 	height: 16px;
-	float: left;
+	float: right;
     margin-right: 15px;
     -webkit-transition: all ease .238s;
        -moz-transition: all ease .238s;
@@ -913,10 +943,16 @@ h6 { font-size: 17px; line-height: 24px; font-weight: 600; color: #151515;}
 .btn-menu:before,
 .btn-menu:after, 
 .btn-menu span {
-	background-color: #fd942a;;
+	background-color: #000;;
     -webkit-transition: all ease .238s;
        -moz-transition: all ease .238s;
             transition: all ease .238s;
+}
+
+.header.downscrolled .btn-menu:before,
+.header.downscrolled .btn-menu:after,
+.header.downscrolled .btn-menu span {
+	background-color: #fd942a;
 }
 
 .btn-menu:before,
@@ -980,7 +1016,7 @@ h6 { font-size: 17px; line-height: 24px; font-weight: 600; color: #151515;}
 
 .btn-submenu:before {
    content: "\f067";
-   color: #fff;
+   color: #000;
 }
 
 .btn-submenu.active:before {
@@ -2104,4 +2140,25 @@ footer {
     border-left: 1em solid #fd942a;
     -webkit-animation: fa-spin 3s infinite linear;
            animation: fa-spin 3s infinite linear;     
+}
+
+.intro {
+	padding: 18px 0px;
+}
+
+.logo2{
+	display: none;
+	position: relative;
+}
+
+.logo-mobi{
+	height: 60px;
+}
+
+.container {
+	width: 100%;
+}
+
+.center-block {
+	float: none;
 }
