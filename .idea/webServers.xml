@@ -3,7 +3,15 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="f3c839a4-cec3-46cc-8797-527e20ef0090" name="maplechain.net" url="http://47.75.130.24">
-        <fileTransfer host="47.75.130.24" port="22" privateKey="$USER_HOME$/Desktop/yesbit/key/ali.pem" rootFolder="/root" accessType="SFTP" keyPair="true">
+        <fileTransfer host="47.75.130.24" port="22" privateKey="$USER_HOME$/Desktop/yesbit/key/ali.pem" rootFolder="/var/www/maplechain.net" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="c4bdbe41-c12d-4210-8ffc-b80bad5abd36" name="yesbit" url="http://47.75.130.24">
+        <fileTransfer host="47.75.130.24" port="22" privateKey="$USER_HOME$/Desktop/yesbit/key/ali.pem" rootFolder="/var/www/yesbit" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>

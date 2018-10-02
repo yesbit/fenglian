@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6db2d076-1df1-4cf8-b37a-a419248bb24a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-en.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/AUTHORS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/dist/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.slim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.slim.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/external/sizzle/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/external/sizzle/dist/sizzle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/external/sizzle/dist/sizzle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/external/sizzle/dist/sizzle.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/jsonp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/load.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/parseXML.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/var/location.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/var/nonce.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/var/rquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/xhr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes/attr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes/classes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes/prop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes/val.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/callbacks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/DOMEval.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/access.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/camelCase.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/nodeName.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/parseHTML.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/ready-no-deferred.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/ready.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/readyException.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/stripAndCollapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/toType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/var/rsingleTag.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/addGetHookIf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/adjustCSS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/curCSS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/hiddenVisibleSelectors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/showHide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/var/cssExpand.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/var/getStyles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/var/isHiddenWithinTree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/var/rboxStyle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/var/rnumnonpx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/var/swap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/data/Data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/data/var/acceptData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/data/var/dataPriv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/data/var/dataUser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/deferred.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/deferred/exceptionHook.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/deprecated.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/dimensions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/effects.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/effects/Tween.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/effects/animatedSelector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/event.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/event/ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/event/alias.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/event/focusin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/event/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/event/trigger.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/exports/amd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/exports/global.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/_evalUrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/buildFragment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/getAll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/setGlobalEval.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/var/rcheckableType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/var/rscriptType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/var/rtagName.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/wrapMap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/offset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/queue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/queue/delay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/selector-native.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/selector-sizzle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/selector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/serialize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/traversing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/traversing/findFilter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/traversing/var/dir.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/traversing/var/rneedsContext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/traversing/var/siblings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/ObjectFunctionString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/arr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/class2type.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/concat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/document.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/documentElement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/fnToString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/getProto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/hasOwn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/indexOf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/isFunction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/isWindow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/pnum.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/push.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/rcssNum.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/rnothtmlwhite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/slice.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/toString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/wrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/404/01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/about/a2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/about/a2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/apps/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/apps/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/apps/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/comment1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/comment2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/comment3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/comment4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/s1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/s2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/s3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/clients/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/clients/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/clients/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/faqs/01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/faqs/02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/iconbox/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/iconbox/02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/iconbox/03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/iconbox/04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/iconbox/05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/iconbox/06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/iconbox/07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/iconbox/08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/iconbox/09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/iconbox/1-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/iconbox/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/iconbox/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/iconbox/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/iconbox/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/iconbox/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/iconbox/14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/iconbox/14_Contact.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/iconbox/15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/iconbox/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/iconbox/17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/iconbox/18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/iconbox/19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/iconbox/2-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/iconbox/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/iconbox/20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/iconbox/21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/iconbox/3-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/iconbox/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/iconbox/bg_color1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/iconbox/bg_color2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/iconbox/bg_color3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/iconbox/bg_contact_us.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/maps/map_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/parallax/bg-parallax1.bak.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/parallax/bg-parallax3.bak.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/parallax/bg-parallax4.bak.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/parallax/original.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/slides/p3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/wallet/01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/wallet/02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/wallet/icon_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/wallet/icon_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/wallet/icon_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/wallet/icon_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/plotly-latest.min.js" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="373" column="76" selection-start-line="373" selection-start-column="66" selection-end-line="373" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index-en.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index-en.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6210">
+              <caret line="414" column="133" selection-start-line="414" selection-start-column="133" selection-end-line="414" selection-end-column="133" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>clietn</find>
+      <find>plo</find>
+      <find>plot</find>
+      <find>key</find>
+      <find>zhang</find>
+      <find>`F</find>
+      <find>description</find>
+      <find>6.jpg</find>
+      <find>6.pg</find>
+      <find>skm</find>
+      <find>SKM</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index-en.html" />
+        <option value="&lt;c4bdbe41-c12d-4210-8ffc-b80bad5abd36&gt;/html/css/styles.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="&lt;f3c839a4-cec3-46cc-8797-527e20ef0090&gt;/html/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/bower_components/jquery.localScroll/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="26" />
+    <option name="width" value="1384" />
+    <option name="height" value="795" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="fenglian" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fenglian" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value=".hitaccess&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6db2d076-1df1-4cf8-b37a-a419248bb24a" name="Default" comment="" />
+      <created>1529086749452</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1529086749452</updated>
+      <workItem from="1529086750556" duration="9460000" />
+      <workItem from="1529731093275" duration="5910000" />
+      <workItem from="1531437929658" duration="278000" />
+      <workItem from="1531571063461" duration="5412000" />
+      <workItem from="1531951051987" duration="630000" />
+      <workItem from="1532459649664" duration="1269000" />
+      <workItem from="1534805718592" duration="1741000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="24700000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="26" width="1384" height="795" extended-state="0" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.5006935" />
+      <window_info active="true" anchor="right" id="Remote Host" order="3" visible="true" weight="0.23265895" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17774567" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="8" weight="0.32871014" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="File Transfer" order="7" visible="true" weight="0.32871014" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5595">
+          <caret line="373" column="76" selection-start-line="373" selection-start-column="66" selection-end-line="373" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-en.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6210">
+          <caret line="414" column="133" selection-start-line="414" selection-start-column="133" selection-end-line="414" selection-end-column="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-en.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6210">
+          <caret line="414" column="133" selection-start-line="414" selection-start-column="133" selection-end-line="414" selection-end-column="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-en.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6210">
+          <caret line="414" column="133" selection-start-line="414" selection-start-column="133" selection-end-line="414" selection-end-column="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-en.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6210">
+          <caret line="414" column="133" selection-start-line="414" selection-start-column="133" selection-end-line="414" selection-end-column="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-en.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6210">
+          <caret line="414" column="133" selection-start-line="414" selection-start-column="133" selection-end-line="414" selection-end-column="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact/contact-process.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-en.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6210">
+          <caret line="414" column="133" selection-start-line="414" selection-start-column="133" selection-end-line="414" selection-end-column="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="373" column="76" selection-start-line="373" selection-start-column="66" selection-end-line="373" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
